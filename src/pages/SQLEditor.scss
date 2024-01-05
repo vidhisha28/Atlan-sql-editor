@@ -1,0 +1,118 @@
+.sql-editor{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  .container{
+      width: 82%;
+      background: #F3F4F6;
+      display: flex;
+      flex-direction: row;
+      .col1{
+        height: calc(100% - 30px);
+        margin: 15px;
+        width: 70%;
+        .editor-section{
+          height: 50%;
+        }
+        .result-section{
+          height: calc(50% - 20px);
+          background-color: white;
+          padding: 10px;
+        }
+      }
+      .col2{
+        height: calc(100% - 30px);
+        margin: 15px;
+        margin-left:0;
+        width: 30%;
+        .section{
+          background-color: white;
+          padding: 10px 20px;
+          margin-bottom: 10px;
+          // box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+        .available-tables-section{
+          height: calc(50% - 30px);
+        }
+        .history-section{
+          height: calc(50% - 20px);
+        }
+      }
+  }
+  .table-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    button {
+      padding: 10px;
+      cursor: not-allowed;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+
+      &:nth-child(even) {
+        background-color: #001f3f;
+        color: #ffffff;
+      }
+    }
+  }
+  .tables-modal {
+    padding: 20px;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      .table-button {
+        margin-bottom: 5px;
+        padding: 10px;
+        cursor: not-allowed;
+
+        &.blue {
+          background-color: navy;
+          color: white;
+        }
+      }
+    }
+
+    .close-button {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #0ea5e9;
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #095d80;
+      }
+    }
+  }
+  .tables-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .suspense-loader{
+    height: 100%;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    place-items: center;
+  }
+}
+
+.customToast{
+  background-color: #0ea5e9;
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
