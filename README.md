@@ -37,15 +37,17 @@ Run the application:
 bash
 Copy code
 npm start
-### Page Load Time
-Used Lighthouse chrome-developer tools to check performance of the SQL-editor : 
+## Deployed link 
+https://stellular-lebkuchen-a8ba3c.netlify.app/
+## Page Load Time
+Used Lighthouse chrome-developer tools to check the performance of the SQL editor: 
 ![performance-1](https://github.com/vidhisha28/Atlan-sql-editor/assets/84218189/4456c234-efd6-4115-8437-84898e83a3ba)
 
 ![performance-2](https://github.com/vidhisha28/Atlan-sql-editor/assets/84218189/2671a7ab-7820-46b3-bf83-074faf7cb00b)
 
 
 
-### Performance Optimizations
+## Performance Optimizations
 To enhance the load time and overall performance of the application, the following optimizations were implemented:
 
  Code Splitting: Utilized React's code splitting to load only the necessary components when required, improving initial page load times.
