@@ -8,7 +8,7 @@ const SideNavbar = ({ openModal }) => {
   return (
     <div className="side-navbar">
       <div className="app-logo"><img src={logoImage} alt="Logo" style = {{width : "130px" , height :120 }} /> </div>
-      <hr className="h-line" />
+      
       <div className="nav-links">
         <ul className="link-items">
           
