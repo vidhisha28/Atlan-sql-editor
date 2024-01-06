@@ -21,7 +21,7 @@ const ResultSection = ({ tableName, result, resultIsLoading }) => {
       </div>
       <div className="result">
         {!resultIsLoading && result === "" && (
-          <div className="no-result">Please execute a query</div>
+          <div className="no-result">Run a query to see Results</div>
         )}
 
         {!resultIsLoading && result !== undefined && result.length > 0 && (
