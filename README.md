@@ -45,18 +45,18 @@ Used Lighthouse chrome-developer tools to check performance of the SQL-editor :
 
 
 
-Performance Optimizations
+### Performance Optimizations
 To enhance the load time and overall performance of the application, the following optimizations were implemented:
 
-Code Splitting: Utilized React's code splitting to load only the necessary components when required, improving initial page load times.
+ Code Splitting: Utilized React's code splitting to load only the necessary components when required, improving initial page load times.
 
-Lazy Loading: Employed lazy loading for certain components, ensuring that resources are fetched only when needed, minimizing the initial payload.
+ Lazy Loading: Employed lazy loading for certain components, ensuring that resources are fetched only when needed, minimizing the initial payload.
 
-Minification and Compression: Implemented code minification and compression techniques to reduce file sizes and accelerate download times.
+ Minification and Compression: Implemented code minification and compression techniques to reduce file sizes and accelerate download times.
 
-Cache Management: Configured appropriate caching strategies for static assets to reduce server requests and improve subsequent page loads.
+ Cache Management: Configured appropriate caching strategies for static assets to reduce server requests and improve subsequent page loads.
 
-Bundle Analysis: Regularly analyzed the application bundle to identify and eliminate unnecessary dependencies, optimizing the overall size of the application.
+ Bundle Analysis: Regularly analyzed the application bundle to identify and eliminate unnecessary dependencies, optimizing the overall size of the application.
 
-Contribution
+### Contribution
 Contributions are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
